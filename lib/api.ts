@@ -3,7 +3,7 @@ import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios';
 import * as SecureStore from 'expo-secure-store';
 
 // ─── Config ─────────────────────────────────────────────────────────────────
-const _rawUrl = process.env.EXPO_PUBLIC_API_URL ?? 'https://365microfinance.mccoln.com/api';
+const _rawUrl = process.env.EXPO_PUBLIC_API_URL ?? 'https://mascofinancelimited.com/api';
 export const API_BASE_URL = _rawUrl.replace(/\/+$/, '');
 
 const STORAGE_KEYS = {
